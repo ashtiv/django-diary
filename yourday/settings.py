@@ -41,9 +41,10 @@ SECRET_KEY = 'rwe=+d4_d+48zd5c5c)8x7_f_q+ejx0zx-e8)2f5l+!m&rt8ln'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-
-ALLOWED_HOSTS = ['diary4u.herokuapp.com',
-                 '127.0.0.1', '.vercel.app', '.now.sh']
+# DEBUG = True
+ALLOWED_HOSTS = ['render-tutorial.onrender.com', '127.0.0.1']
+# ALLOWED_HOSTS = ['diary4u.herokuapp.com',
+#                  '127.0.0.1', '.vercel.app', '.now.sh']
 
 
 # Application definition
