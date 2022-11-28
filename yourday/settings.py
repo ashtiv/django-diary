@@ -42,7 +42,7 @@ SECRET_KEY = 'rwe=+d4_d+48zd5c5c)8x7_f_q+ejx0zx-e8)2f5l+!m&rt8ln'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['diary4u.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['diary4u.herokuapp.com', '127.0.0.1', '.vercel.app', ]
 
 
 # Application definition
@@ -139,9 +139,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
-LOGOUT_REDIRECT_URL='home'
+LOGOUT_REDIRECT_URL = 'home'
 LOGIN_REDIRECT_URL = 'home'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # STATICFILES_DIRS = [
 #     os.path.join(BASE, "static"),
-# ]   
+# ]
